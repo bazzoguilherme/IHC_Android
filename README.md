@@ -1,2 +1,2 @@
 # IHC_Android
-Atividades Práticas de IHC
+Atividades Práticas 1 e 2 de IHC
