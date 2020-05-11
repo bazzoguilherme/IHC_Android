@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Atividade3 - Sensores</string>
+    <string name="name_x">X:</string>
+    <string name="name_y">Y:</string>
+    <string name="name_z">Z:</string>
+    <string name="hint_x">Valor de X</string>
+    <string name="hint_y">Valor de Y</string>
+    <string name="hint_z">Valor de Z</string>
+    <string name="text_sensor">Grande alteracao no sensor!</string>
+    <string name="button_back">BACK</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding">
+
+    <EditText
+        android:id="@+id/value1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:ems="10"
+        android:hint="@string/hint_add_value"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary" />
+
+    <EditText
+        android:id="@+id/value2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:ems="10"
+        android:hint="@string/hint_add_value"
+        android:inputType="textPersonName"
+        android:textAlignment="viewStart"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textCursorDrawable="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/button_sum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/button_sum" />
+
+    <TextView
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/top_margin"
+        android:text="@string/result_name"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/result_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+</LinearLayout>

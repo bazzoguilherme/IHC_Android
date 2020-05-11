@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_editText">16dp</dimen>
+    <dimen name="margin_editText">8dp</dimen>
+    <dimen name="magin_top">14dp</dimen>
+    <dimen name="margin_top_name">18dp</dimen>
+    <dimen name="padding_newPage_top_text">100dp</dimen>
+</resources>

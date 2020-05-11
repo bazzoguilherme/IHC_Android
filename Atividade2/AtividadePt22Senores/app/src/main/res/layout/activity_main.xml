@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding"
+    android:paddingRight="@dimen/padding"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/text_sensor_descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/name_text_sensor"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_sensor_saida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="18sp"
+        tools:text="10.0"
+        app:layout_constraintStart_toEndOf="@+id/text_sensor_descricao"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/text_sensor_gravidade"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_sensor_descricao" />
+
+    <TextView
+        android:id="@+id/x_id_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/text_x_gravidade"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/y_id_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/text_y_gravidade"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/x_id_gravity" />
+
+    <TextView
+        android:id="@+id/text_z"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding"
+        android:layout_marginTop="@dimen/margin_top"
+        android:text="@string/text_z_gravity"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/y_id_gravity" />
+
+    <TextView
+        android:id="@+id/x_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/x_id_gravity"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/y_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/y_id_gravity"
+        app:layout_constraintTop_toBottomOf="@+id/x_gravity"
+        tools:text="10" />
+
+    <TextView
+        android:id="@+id/z_gravity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginTop="@dimen/margin_top"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/text_z"
+        app:layout_constraintTop_toBottomOf="@+id/y_gravity"
+        tools:text="10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

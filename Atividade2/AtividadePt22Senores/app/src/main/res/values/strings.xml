@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AtividadePt2 - 2 Senores</string>
+    <string name="name_text_sensor">Luminosidade:</string>
+    <string name="text_sensor_gravidade">Sensor Gravidade: (m/s²)</string>
+    <string name="text_x_gravidade">X:</string>
+    <string name="text_y_gravidade">Y:</string>
+    <string name="text_z_gravity">Z:</string>
+</resources>
